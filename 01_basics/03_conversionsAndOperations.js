@@ -46,4 +46,40 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
+// notes of conversion 
+// "50"=> 50
+// "50abcd"=> NaN
+// true=> 1; false=>0
+
+// -------------------------------------------------------------------
+
+// let isLoggedIn = 1                              
+
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);                 //true
+
+// -------------------------------------------------------------------
+
+// notes: 
+
+// 1=>true; 
+// 0=>false; 
+// "Suraj"=>true;
+// " "=> false
+
+
+// --------------------------------------------------------------------------------------------------------------------
+
+// Conversion of Number => String
+
+let someNumber = 55
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);                      // 55
+console.log(typeof stringNumber);               // string
+
+// --------------------------------------------------------------------------------------------------------------------
+
+// to run all the above code, type this command in the terminal => node 01_basics/03_conversionsAndOperations.js 
+
 
