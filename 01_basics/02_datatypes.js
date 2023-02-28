@@ -2,7 +2,7 @@
 
 // alert(2+2);  // we are using nodejs, not the browser to code.
 
-// Give priority to code readability. Most Important
+// Give priority to code readability. Most Important!!
 
 // The use of ; => is not compulsory in Javascript as long as the code is readable.
 

@@ -1,3 +1,8 @@
+// The original documentation of JS can be found here=> https://tc39.es/ecma262/#sec-intro
+// It writes standards for Javascript.
+
+
+
 // let gameScore = 50
 
 //  type of the gameScore variable => number
@@ -72,14 +77,55 @@
 
 // Conversion of Number => String
 
-let someNumber = 55
+// let someNumber = 55
 
-let stringNumber = String(someNumber)
-console.log(stringNumber);                      // 55
-console.log(typeof stringNumber);               // string
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);                      // 55
+// console.log(typeof stringNumber);               // string
 
 // --------------------------------------------------------------------------------------------------------------------
 
 // to run all the above code, type this command in the terminal => node 01_basics/03_conversionsAndOperations.js 
 
+
+
+
+
+// ******************************************* OPERATIONS *******************************************************************
+
+// let posValue = 5
+// let negValue = -posValue
+//console.log(negValue);           // -5
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**3);
+// console.log(2%2);
+
+// let str1 = "Hello"
+// let str2 = " Suraj"
+
+// let str3 = str1 + str2
+// console.log(str3);              // Hello Suraj
+
+// console.log("1" + 2);               // 12
+// console.log(1 + "2");               // 12
+// console.log("1" + 2 + 2);           // 122
+// console.log(1 + 2 + "2");           // 32
+
+// To know more you can refer this documentation => ****** https://tc39.es/ecma262/#sec-type-conversion *******
+
+// -------------------------------------------------------------------------------------------------------------------------
+
+
+// Prefix and postfix => learn how it works through documentation => 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+let gameCounter = 100
+gameCounter++
+
+console.log(gameCounter);  // 101 
 
