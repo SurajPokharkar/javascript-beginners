@@ -1,6 +1,10 @@
 // The original documentation of JS can be found here=> https://tc39.es/ecma262/#sec-intro
 // It writes standards for Javascript.
 
+
+// variables=> reserve some memory
+// 3 keywords=> var,let and const
+
 const javascriptId = 123456;
 let javascriptEmail = "javascript@beginners.com";
 var javascriptPassword = "789456123";
