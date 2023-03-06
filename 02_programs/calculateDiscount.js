@@ -8,7 +8,7 @@ let listingPrice = 799
 let discountPercent = ((listingPrice - sellingPrice)/listingPrice) * 100
 
 let displayDiscount = Math.round(discountPercent)
-console.log(displayDiscount);   // 75
+console.log(displayDiscount + "%OFF");   // 75
 
 
 
