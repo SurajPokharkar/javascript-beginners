@@ -14,8 +14,11 @@ User could have following roles:
 
 
 // Functional Programming way=> treating a function just like a variable
+// This is fairly common practice in React/Angular and many other libraries/frameworks called the "arrow functions" 
+// let getUserRole = function(name, role)
+// let getUserRole =(name, role) => {}       "Arrow function"
 
-let getUserRole = function(name, role){
+let getUserRole = function (name, role){
     switch (role) {
         case "admin":
             return `${name} is admin with all access`
