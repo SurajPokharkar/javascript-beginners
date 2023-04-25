@@ -23,8 +23,21 @@ var User = function(firstName, courseCount){
 // whenever there is a Constructor involved usually there is a "new" keyword involved 
 // Now, defining users and this will create unique instances 
 
+// also using __proto__ here 
+User.prototype.getfirstName = function(){
+    console.log(`Your first name is: ${this.firstName}`);
+}
+
+// we are explicitly mentioning __proto__ above, to inject properties of firstName (or anyother if you want to)
+// you can give/access more properties or more functions, getters/setters 
+
 var suraj = new User("suraj", 5)
-console.log(suraj);
+suraj.getcourseCount()
+suraj.getfirstName()
+// console.log(suraj);
+
 
 var omkar = new User("omkar", 3)
-console.log(omkar);
+omkar.getcourseCount()
+omkar.getfirstName()
+// console.log(omkar);
